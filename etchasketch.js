@@ -34,4 +34,5 @@ const clear = document.getElementById("clear");
 clear.addEventListener("click", () => {
     pixels.forEach(pixel =>
         pixel.style.backgroundColor = "#F8F0E3");
+        mode = "black";
 });

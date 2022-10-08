@@ -12,7 +12,22 @@ html, body {
     font-size: 70px;
     text-align: center;
     height: 110px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.button {
+    color: #F8F0E3;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 #grid {

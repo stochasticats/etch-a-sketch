@@ -12,7 +12,7 @@ html, body {
     font-size: 70px;
     text-align: center;
     height: 110px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #buttons {
@@ -27,7 +27,9 @@ html, body {
     color: #F8F0E3;
     background-color: black;
     padding: 10px;
+    margin: 5px;
     border-radius: 5px;
+    border-style: solid;
 }
 
 #grid {
@@ -52,7 +54,7 @@ html, body {
     text-align: center;
     font-size: 15px;
     height: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     position: absolute;
     bottom: 0;
     width: 100%;

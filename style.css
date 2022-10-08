@@ -6,12 +6,12 @@ html, body {
     padding: 0;
 }
 
-.header {
+#header {
     color: #F8F0E3;
     background-color: black;
     font-size: 70px;
     text-align: center;
-    height: 150px;
+    height: 110px;
     margin-bottom: 50px;
 }
 
@@ -28,11 +28,17 @@ html, body {
     height: 30px;
 }
 
-.footer {
+#footer {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
     color: #F8F0E3;
     background-color: black;
-    font-size: 15px;
     text-align: center;
+    font-size: 15px;
     height: 100px;
     margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

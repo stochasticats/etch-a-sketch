@@ -33,11 +33,17 @@ html, body {
     border-style: solid;
 }
 
+.button:hover {
+    background-color: #F8F0E3;
+    color: black;
+}
+
 #grid {
     display: grid;
     grid-template-columns: repeat(16, 30px);
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .pixel {
